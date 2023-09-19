@@ -5,3 +5,16 @@ for n in range(0, len(student_heights)):
 # 🚨 Don't change the code above 👆
 
 #Write your code below this row 👇
+
+total_sum = 0
+
+for i in student_heights:
+  total_sum += i
+
+n_students = int(n + 1)
+
+result = total_sum / n_students
+
+round = round(result)
+
+print(round)

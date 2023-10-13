@@ -19,3 +19,12 @@ print(guess)
 if guess in chosen_word:
     print("ok")
 else: print("not")   
+
+
+## Solution BY Angela
+
+for letter in chosen_word:
+    if letter == guess:
+        print("Right")
+    else:
+        print("Wrong")        
